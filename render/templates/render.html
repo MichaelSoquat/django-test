@@ -1,3 +1,6 @@
+{%extends 'main.html'%} {%block content%}
+
+
 <h1>Just render a model with some cars:</h1>
 
 {%for car in cars%}
@@ -5,4 +8,4 @@
 <h3>{{car.color}}</h3>
 <h3>{{car.manufacturer}}</h3>
 
-{%endfor%}
+{%endfor%} {%endblock%}
